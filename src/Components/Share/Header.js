@@ -53,7 +53,7 @@ const Header = () => {
         </div>
 
         <div className="flex item-center justify-end relative  w-full xl:text-3xl md:text-lg text-md font-serif">
-          <ul className="menu menu-horizontal hidden xl:px-3 md:px-2 py-1 lg:text-lg lg:text-md text-sm font-semibold   md:flex lg:gap-x-6 md:gap-x-4 font-serif text-black ">
+          <ul className="menu menu-horizontal hidden lg:flex xl:px-3 md:px-2 py-1 lg:text-lg lg:text-md text-sm font-semibold    lg:gap-x-6 md:gap-x-4 font-serif text-black ">
             {menuItems}
           </ul>
 
@@ -87,7 +87,7 @@ const Header = () => {
               <p className=" ">X</p>
             )}
           </div> */}
-          <div className="md:hidden" onClick={() => setOpen(!open)}>
+          <div className="lg:hidden" onClick={() => setOpen(!open)}>
             {!open ? (
               <FaBars className="text-3xl text-black " />
             ) : (
@@ -97,11 +97,11 @@ const Header = () => {
           <div
             className={`  ${
               open
-                ? " absolute sm:top-14 top-11 left-0 right-4 flex items-center justify-center    w-full  mx-auto text-center lg:py-6 md:py-4 py-2 sm:text-lg text-md font-semibold bg-white text-black md:hidden  duration-500 ease-in-out"
-                : " absolute  -top-96   w-full text-center  bg-white text-black md:hidden   duration-500 ease-in-out"
+                ? " absolute sm:top-14 top-11 left-0 right-4 flex items-center justify-center    w-full  mx-auto text-center lg:py-6 md:py-4 py-2 sm:text-lg text-md font-semibold bg-white text-black lg:hidden  duration-500 ease-in-out"
+                : " absolute  -top-96   w-full text-center  bg-white text-black lg:hidden   duration-500 ease-in-out"
             }`}
           >
-            <ul className=" flex flex-col justify-center  space-y-2 py-4 md:hidden  w-full text-black ">
+            <ul className=" flex flex-col justify-center  space-y-2 py-4 lg:hidden  w-full text-black ">
               {menuItems}
             </ul>
           </div>

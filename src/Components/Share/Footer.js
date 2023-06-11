@@ -13,7 +13,7 @@ const Footer = () => {
         <ImLinkedin2 className=" md:text-3xl text-2xl px-1  border border-white" />
       </div>
       <div className="flex sm:flex-row flex-col items-center justify-around text-center  h-full xl:w-7/12 lg:w-10/12 md:w-11/12 w-full md:px-0 px-4 mx-auto ">
-        <div className="flex flex-col items-start md:w-2/6 w-full">
+        <div className="flex flex-col sm:items-start items-center md:w-2/6 w-full">
           <Link>
             <img
               className="lg:w-48 sm:w-36 w-28 "
