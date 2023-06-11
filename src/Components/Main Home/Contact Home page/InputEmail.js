@@ -4,7 +4,7 @@ import { BiEnvelope } from "react-icons/bi";
 const InputEmail = () => {
   return (
     <div className=" xl:py-36 lg:py-32 md:py-28 sm:py-20 py-16 text-center">
-      <div className="flex flex-col items-start   lg:px-4 px-2 lg:space-y-6 md:space-y-4 space-y-2">
+      <div className="flex flex-col items-start   lg:px-4 px-2 lg:space-y-6 md:space-y-4 space-y-2 text-black">
         <h2 className=" font-semibold font-serif xl:w-10/12 w-full text-left  2xl:text-5xl lg:text-3xl sm:text-2xl   text-lg text-[#192733]">
           Get Smarter about your career
         </h2>
