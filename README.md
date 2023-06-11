@@ -1,6 +1,6 @@
 # Vercel Live Link : https://desh-career.vercel.app/
 
-# project React js , Tailwind css,
+# Project React js , Tailwind css,
 
 # Getting Started with Create React App
 
